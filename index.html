@@ -31,10 +31,10 @@
     <button type="button" class="btn btn-warning" id="clearList" style="float:right">Delete All</button>
     <button type="button" class="btn btn-default" id="addItem" style="float:right">Add</button>
     <form action="">
-      <input type="radio" name="week" value="Monday" class="dayOfWeek">Monday
-      <input type="radio" name="week" value="Tuesday" class="dayOfWeek">Tuesday
-      <input type="radio" name="week" value="Wednesday" class="dayOfWeek">Wednesday
-
+      <input type="radio" name="week" value="Monday" class="dayOfWeek" id="MonSelect">Monday
+      <input type="radio" name="week" value="Tuesday" class="dayOfWeek" id="TuesSelect">Tuesday
+      <input type="radio" name="week" value="Wednesday" class="dayOfWeek" id="WedSelect">Wednesday
+    </form>
     <div>
       <ul >
 
@@ -46,13 +46,13 @@
 
   <div class="col-sm-6">
     <div class="weekBoxes"><a id="Mon">Monday</a>
-      <ul id="displayList">
+      <ul class="displayList" id="monDisplayList">
 
       </ul>
     </div>
 
      <div class="weekBoxes"><a id="Tues">Tuesday </a>
-        <ul id="tuesDisplayList">
+        <ul class="displayList" id="tuesDisplayList">
 
         </ul>
      </div>
@@ -66,6 +66,11 @@
     <div class="col-sm-12">
       <h2>Word Puzzle</h2>
 
+      <div id="letters">Letters: </div>
+
+      <input type="text" placeholder="unscramble word" id="checkWord"> </input>
+      <button type="submit" class="btn-default">Check </button>
+      <button type="text" class="btn-default" id="newWord">New Word </button>
     </div>
 
   </div>

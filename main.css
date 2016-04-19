@@ -31,13 +31,13 @@
   border: 2px solid black;
 }
 
-#displayList li {
+.displayList li {
     border-bottom: 3px solid grey;
     width: 43%;
     margin-top: 2%;
 }
 
-#displayList li:hover {
+.displayList li:hover {
   color: red;
   font-size: 110%;
   cursor: pointer;
