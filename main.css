@@ -1,0 +1,49 @@
+
+#toDoListStyle {
+    padding: 3%;
+    padding-top: 1%;
+    border: black 1px solid;
+    width: 75%;
+    height: 25%;
+    background-color: lightblue;
+}
+
+#search-gMaps {
+  height: 50%;
+  width: 50%;
+
+}
+
+
+.weekBoxes {
+  padding: 3%;
+  margin-left: 1%;
+  border: 2px solid black;
+}
+
+.pagination {
+  margin-bottom: 1%;
+}
+
+#imageBox {
+  width: 63%;
+  height: 47%;
+  border: 2px solid black;
+}
+
+#displayList li {
+    border-bottom: 3px solid grey;
+    width: 43%;
+    margin-top: 2%;
+}
+
+#displayList li:hover {
+  color: red;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+#addItem {
+  margin-left: 0%;
+  margin-right: 2%;
+}
