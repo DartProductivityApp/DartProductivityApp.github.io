@@ -29,17 +29,16 @@
 
     <input id="addItem" type="text" placeholder="Add item to list <ENTER>"> </input>
     <button type="button" class="btn btn-warning" id="clearList" style="float:right">Delete All</button>
-    <button type="button" class="btn btn-default" id="addItem" style="float:right">Add</button>
+<!--    <button type="button" class="btn btn-default" id="addItem" style="float:right">Add</button>  -->
     <form action="">
       <input type="radio" name="week" value="Monday" class="dayOfWeek" id="MonSelect">Monday
       <input type="radio" name="week" value="Tuesday" class="dayOfWeek" id="TuesSelect">Tuesday
-      <input type="radio" name="week" value="Wednesday" class="dayOfWeek" id="WedSelect">Wednesday
+      <input type="radio" name="week" value="Wednesday" class="dayOfWeek" id="WedSelect">Wednesday<br>
+      <input type="radio" name="week" value="Thursday" class="dayOfWeek" id="ThursSelect">Thursday
+      <input type="radio" name="week" value="Friday" class="dayOfWeek" id="FriSelect">Friday
+      <input type="radio" name="week" value="Saturday" class="dayOfWeek" id="SatSelect">Saturday
+      <input type="radio" name="week" value="Sunday" class="dayOfWeek" id="SunSelect">Sunday
     </form>
-    <div>
-      <ul >
-
-      </ul>
-    </div>
 
     </div>
   </div>
@@ -57,21 +56,36 @@
         </ul>
      </div>
 
-     <div class="weekBoxes">Wednesday </div>
+     <div class="weekBoxes"><a id="Wed">Wednesday</a>
+        <ul class="displayList" id="wedDisplayList">
+
+        </ul>
+     </div>
+
+     <div class="weekBoxes"><a id="Thur">Thursday</a>
+        <ul class="displayList" id="thursDisplayList">
+
+        </ul>
+     </div>
+
+     <div class="weekBoxes"><a id="Fri">Friday</a>
+        <ul class="displayList" id="friDisplayList">
+
+        </ul>
+     </div>
+
+     <div class="weekBoxes"><a id="Sat">Saturday</a>
+        <ul class="displayList"id="satDisplayList">
+
+        </ul>
+     </div>
+
+     <div class="weekBoxes"><a id="Wed">Sunday</a>
+        <ul class="displayList" id="sunDisplayList">
+
+        </ul>
+     </div>
   </div>
-
-  </div>
-
-  <div class="row">
-    <div class="col-sm-12">
-      <h2>Word Puzzle</h2>
-
-      <div id="letters">Letters: </div>
-
-      <input type="text" placeholder="unscramble word" id="checkWord"> </input>
-      <button type="submit" class="btn-default">Check </button>
-      <button type="text" class="btn-default" id="newWord">New Word </button>
-    </div>
 
   </div>
 
